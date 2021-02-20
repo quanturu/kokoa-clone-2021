@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lime</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!--wifi icon-->
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <Span>20:10</Span>
+        </div>
+        <div class="status-bar__column">
+            <span>19%</span>
+            <!--battery icon and charging-->
+            <i class="fas fa-battery-quarter"></i>
+            <i class="fas fa-bolt"></i> 
+        </div>
+    </div>
+    
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-user"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html">
+                <span class="nav__alert">1</span><i class="far fa-comment"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-search"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="#">
+                <span class="nav__alert"></span><i class="fas fa-ellipsis-h"></i></a></li>
+        </ul>
+    </nav>
+
+    <header class="screen-header">
+        <div class="screen-header__tittle"><h1>Friends</h1></div>
+        <div class="screen-header__icon">
+            <span>
+                <i class="fas fa-search"></i>
+            </span>
+            <span>
+                <i class="fas fa-music"></i>
+            </span>
+            <span>
+                <i class="fas fa-cog"></i>
+            </span>
+        </div>
+    </header>
+
+    <a id="friends-display" href="#">
+        <i class="fas fa-info-circle"></i>
+        Fridends' Names Display
+        <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="identification-photo.jpg" alt="" class="user-component__img user-component__img--xl"">
+                <div class="user-component__name">
+                    <h4 class="user-component__text">
+                        ChanHo
+                    </h4>
+                    <h6 class="user-component__subtext">
+                        This write whatever
+                    </h6> 
+                </div>
+            </div>
+            <div class="user-compoent__column"></div>
+            </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channle-header">
+                <span>Channel</span>
+                <i class="fas fa-chevron-up"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="lime.jpg" alt="" class="user-component__img user-component__img--sm"">
+                    <div class="user-component__name">
+                        <h4 class="user-component__text user-component__text--not-bold">
+                            Channel
+                        </h4>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                <span>2</span>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://kit.fontawesome.com/e568a469d0.js" crossorigin="anonymous">
+    </script>
+</body>
+</html>

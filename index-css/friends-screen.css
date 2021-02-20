@@ -1,0 +1,92 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+}
+
+.screen-header__tittle {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.screen-header__icon span {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+#friends-display {
+  background-color: rgb(250, 250, 250);
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+#friends-display i {
+  opacity: 0.3;
+  padding: 5px;
+}
+
+.friends-screen__channel {
+  margin-top: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.friends-screen__channle-header {
+  opacity: 0.3;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.friends-screen {
+  margin: 0 var(--screen-margin);
+}
+
+.user-component {
+  justify-content: space-between;
+}
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__img {
+  border-radius: 30px;
+  margin-right: 15px;
+  width: 70px;
+  height: 70px;
+}
+
+.user-component__text {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+
+.user-component__subtext {
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.user-component__img--xl {
+  height: 80px;
+  width: 80px;
+}
+
+.user-component__img--sm {
+  height: 60px;
+  width: 60px;
+  border-radius: 25px;
+}
+
+.user-component__text--not-bold {
+  font-weight: 400;
+}
+
+.user-component__column:last-child {
+  opacity: 0.3;
+}

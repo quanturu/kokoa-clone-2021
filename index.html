@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Never</title>
-    <script src="https://kit.fontawesome.com/e568a469d0.js" crossorigin="anonymous"></script>
+    <title>Lime</title>
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
-    <div id="status-bar">
+    <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
             <!--wifi icon-->
@@ -22,8 +22,21 @@
             <span>19%</span>
             <!--battery icon and charging-->
             <i class="fas fa-battery-quarter"></i>
-            <i class="fas fa-bolt"></i>
+            <i class="fas fa-bolt"></i> 
         </div>
     </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Lime</h1>
+        <p class="welcome-header__text">if you have a never Account,<br> log in with your email or phone number.
+        </p>
+    </header>
+    <form action="friends.html" method="get" id="login-form">
+        <input type="text" placeholder="Email or phone number">
+        <input type="password" placeholder="Password">
+        <input type="submit" value="Log in">
+        <a href="#">Find Lime Account or Password</a>
+    </form>
+    <script src="https://kit.fontawesome.com/e568a469d0.js" crossorigin="anonymous">
+    </script>
 </body>
 </html>
