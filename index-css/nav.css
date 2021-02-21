@@ -43,6 +43,10 @@
   left: 28px;
 }
 
+.nav__btn {
+  transition: color 0.2s ease-in-out;
+}
+
 .nav__btn:first-child:hover {
   color: var(--green);
 }

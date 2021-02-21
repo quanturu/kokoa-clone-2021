@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lime</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!--wifi icon-->
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <Span>20:10</Span>
+        </div>
+        <div class="status-bar__column">
+            <span>19%</span>
+            <!--battery icon and charging-->
+            <i class="fas fa-battery-quarter"></i>
+            <i class="fas fa-bolt"></i> 
+        </div>
+    </div>
+    
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html">
+                <span class="nav__alert">1</span><i class="far fa-comment"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-search"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="setting.html">
+                <span class="nav__alert"></span><i class="fas fa-ellipsis-h"></i></a></li>
+        </ul>
+    </nav>
+
+    <header class="screen-header">
+        <div class="screen-header__tittle"><h1>Search</h1></div>
+        <div class="screen-header__icon">
+            <span>
+                <i class="fas fa-search"></i>
+            </span>
+            <span>
+                <i class="fas fa-music"></i>
+            </span>
+            <span>
+                <i class="fas fa-cog"></i>
+            </span>
+        </div>
+    </header>
+
+    <div class="search-main">
+        <main class="main-screen">
+            <div class="find-icons">
+                <div class="find-icons__icon">
+                    <i class="fas fa-qrcode"></i>
+                    <span>QR Code</span>
+                </div>
+                <div class="find-icons__icon">
+                    <i class="far fa-address-book"></i>
+                    <span>Add by Contacts</span>
+                </div>
+                <div class="find-icons__icon">
+                    <i class="fas fa-fingerprint"></i>
+                    <span>Add by ID</span>
+                </div>
+                <div class="find-icons__icon">
+                    <i class="far fa-envelope"></i>
+                    <span>Invite</span>
+                </div>
+            </div>
+            <div class="recommended-friends">
+                <h6 class="recommended-friends__title">Recommended Friends</h6>
+                <span>You have no recommended friends.</span>
+            </div>
+            <div class="open-chat">
+                <div class="open-chat__header">
+                    <h4>Open Chat</h4>
+                    <span>Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i>
+                    </span>
+                </div>
+                <div class="open-post">
+                    <div class="open-post__column">
+                        <h5 class="open-post__title">#CHJ</h5>
+                        <h6 class="open-post__hashtags">#chj#chef#friends</h6>
+                        <div class="open-post__members">
+                            <img src="identification-photo.jpg"/>
+                            <span class="open-post__member-count">802 members</span>
+                            <div class="divider"></div>
+                            <span class="open-post__member-status">Active</span>
+                        </div>
+                    </div>
+                    <div class="open-post__column">
+                        <div class="open-post__photo">
+                            <img src="identification-photo.jpg" />
+                            <div class="open-post__heart-count">
+                                <i class="fas fa-heart fa-xs"></i><span>326</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </main>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e568a469d0.js" crossorigin="anonymous">
+    </script>
+</body>
+</html>    
